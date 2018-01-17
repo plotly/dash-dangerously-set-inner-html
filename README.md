@@ -111,7 +111,7 @@ In your test, append `.only` to a `describe` or `it` statement:
 ```javascript
 describe.only('Foo component', () => {
     // ...
-})l
+});
 ```
 
 ### Testing your components in Dash
