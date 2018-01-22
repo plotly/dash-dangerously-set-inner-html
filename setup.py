@@ -1,10 +1,11 @@
 from setuptools import setup
 
-exec (open('dash_dangerously_set_inner_html/version.py').read())
+main_ns = {}
+exec(open('dash_dangerously_set_inner_html/version.py').read(), main_ns)
 
 setup(
     name='dash_dangerously_set_inner_html',
-    version=__version__,
+    version=main_ns['__version__'],
     author='plotly',
     packages=['dash_dangerously_set_inner_html'],
     include_package_data=True,

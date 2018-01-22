@@ -15,12 +15,12 @@ _this_module = _sys.modules[__name__]
 
 _js_dist = [
     {
-        "relative_package_path": "bundle.js",
-        "external_url": (
-            "https://unpkg.com/dash-dangerously-set-inner-html@{}"
-            "/dash_dangerously_set_inner_html/bundle.js"
+        'relative_package_path': 'bundle.js',
+        'external_url': (
+            'https://unpkg.com/dash-dangerously-set-inner-html@{}'
+            '/dash_dangerously_set_inner_html/bundle.js'
         ).format(__version__),
-        "namespace": "dash_dangerously_set_inner_html"
+        'namespace': 'dash_dangerously_set_inner_html'
     }
 ]
 
