@@ -17,7 +17,7 @@ dash-html-components (https://github.com/plotly/dash-html-components).
 You can also provide HTML in a sandboxed iframe using the
 `dash_html_components.IFrame(srcDoc='raw html here')` component, see [https://community.plot.ly/t/rendering-html-similar-to-markdown/6232/2?u=chriddyp](https://community.plot.ly/t/rendering-html-similar-to-markdown/6232/2?u=chriddyp)
 
-Note that the elements in the HTML block that is generated will can not
+Note that the elements in the HTML block that is generated can not
 be targeted with Dash callbacks.
 
 Install with
