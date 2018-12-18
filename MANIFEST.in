@@ -1,5 +1,6 @@
 include dash_dangerously_set_inner_html/bundle.js
 include dash_dangerously_set_inner_html/bundle.js.map
 include dash_dangerously_set_inner_html/metadata.json
+include dash_dangerously_set_inner_html/package.json
 include README.md
 include LICENSE.md
