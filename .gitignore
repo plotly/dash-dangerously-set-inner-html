@@ -4,8 +4,6 @@ dist/
 lib/
 lib/bundle.js*
 node_modules/
-dash_dangerously_set_inner_html/metadata.json
-dash_dangerously_set_inner_html/bundle.js*
 .npm
 vv/
 venv/
