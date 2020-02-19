@@ -15,7 +15,7 @@ to type out dangerouslySetInnerHTML to remind yourself that it's dangerous.
 In most cases, you are safer using the Dash HTML component classes,
 dash-html-components (https://github.com/plotly/dash-html-components).
 You can also provide HTML in a sandboxed iframe using the
-`dash_html_components.IFrame(srcDoc='raw html here')` component, see [https://community.plot.ly/t/rendering-html-similar-to-markdown/6232/2?u=chriddyp](https://community.plot.ly/t/rendering-html-similar-to-markdown/6232/2?u=chriddyp)
+`dash_html_components.IFrame(srcDoc='raw html here')` component, see [https://community.plotly.com/t/rendering-html-similar-to-markdown/6232/2?u=chriddyp](https://community.plotly.com/t/rendering-html-similar-to-markdown/6232/2?u=chriddyp)
 
 Note that the elements in the HTML block that is generated can not
 be targeted with Dash callbacks.
