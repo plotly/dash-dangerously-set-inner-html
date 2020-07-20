@@ -14,4 +14,3 @@ venv/
 *.log
 .DS_Store
 .idea
-.Rbuildignore
