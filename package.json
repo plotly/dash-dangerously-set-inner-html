@@ -1,6 +1,6 @@
 {
   "name": "dash-dangerously-set-inner-html",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A dash component for specifying raw HTML",
   "main": "lib/index.js",
   "repository": {
