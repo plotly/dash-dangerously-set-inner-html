@@ -11,5 +11,5 @@ setup(
     include_package_data=True,
     license='MIT',
     description='A dash component for specifying raw HTML',
-    install_requires=[]
+    install_requires=['dash']
 )
