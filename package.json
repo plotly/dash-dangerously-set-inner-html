@@ -24,7 +24,7 @@
     "test-watch": "builder run test-frontend-watch",
     "test-debug": "builder run test-frontend-debug",
     "uninstall-local": "pip uninstall dash-dangerously-set-inner-html -y",
-    "build:py_and_r": "dash-generate-components ./src/components dash_dangerously_set_inner_html -p package-info.json && dash-generate-components ./src/components dash_dangerously_set_inner_html -p package-info.json --r-prefix 'html' --r-suggests 'dash', 'dashCoreComponents'"
+    "build:py_and_r": "dash-generate-components ./src/components dash_dangerously_set_inner_html -p package-info.json && dash-generate-components ./src/components dash_dangerously_set_inner_html -p package-info.json --r-prefix 'html' --r-suggests 'dash'"
   },
   "author": "Chris Parmer <chris@plotly.com>",
   "dependencies": {
