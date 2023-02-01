@@ -54,7 +54,6 @@ from dash_dangerously_set_inner_html import DangerouslySetInnerHTML
 from dash import Dash, html, Input, Output
 
 app = Dash('')
-app.scripts.config.serve_locally = True
 
 app.layout = html.Div([
     html.Div(id='target')
