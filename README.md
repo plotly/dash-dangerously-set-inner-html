@@ -20,14 +20,15 @@ You can also provide HTML in a sandboxed iframe using the
 Note that the elements in the HTML block that is generated can not
 be targeted with Dash callbacks.
 
-Install with
-```
+The package can be installed with:
+
+```sh
 pip install dash-dangerously-set-inner-html
 ```
 
 ## Usage
 
-```
+```py
 import dash_dangerously_set_inner_html
 import dash
 import dash_html_components as html
@@ -44,6 +45,30 @@ app.layout = html.Div([
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+```
+
+To set the inner HTML with a Dash callback, do the following:
+
+```py
+from dash_dangerously_set_inner_html import DangerouslySetInnerHTML
+from dash import Dash, html, Input, Output
+
+app = Dash('')
+
+app.layout = html.Div([
+    html.Div(id='target')
+    html.Button('Click me!', id='trigger')
+])
+
+@app.callback(
+    Output('target', 'children')
+    Input('trigger', 'n_clicks')
+    prevent_initial_call=True
+)
+def populateFunc(n):
+    return DangerouslySetInnerHTML('''
+        <h1>You clicked the button!</h1>
+    ''')
 ```
 
 ## Dash
@@ -108,7 +133,7 @@ $ npm run test-debug
 
 In your test, append `.only` to a `describe` or `it` statement:
 
-```javascript
+```js
 describe.only('Foo component', () => {
     // ...
 });
