@@ -1,0 +1,21 @@
+% Auto-generated: do not edit by hand
+\name{htmlDangerouslySetInnerHTML}
+
+\alias{htmlDangerouslySetInnerHTML}
+
+\title{DangerouslySetInnerHTML component}
+
+\description{
+Render a string of raw, unescaped HTML. This uses React.js's `dangerouslySetInnerHTML` method. From React.js's documentation, note that: > Setting HTML from code is risky because it's easy to > inadvertently expose your users to a cross-site scripting (XSS) > (https://en.wikipedia.org/wiki/Cross-site_scripting) > attack. So, you can set HTML directly in Dash through React.js, but you have to type out dangerouslySetInnerHTML to remind yourself that it's dangerous.  In most cases, you are safer using the Dash HTML component classes, dash-html-components (https://github.com/plotly/dash-html-components). You can also provide HTML in a sandboxed iframe using the `dash_html_components.IFrame(srcDoc='raw html here')` component, see , see https://community.plotly.com/t/rendering-html-similar-to-markdown/6232/2?u=chriddyp  Note that the elements in the HTML block that is generated will can not be targeted with Dash callbacks.
+}
+
+\usage{
+htmlDangerouslySetInnerHTML(children=NULL)
+}
+
+\arguments{
+\item{children}{Character. An string of raw, unescaped HTML that will be rendered directly}
+}
+
+\value{named list of JSON elements corresponding to React.js properties and their values}
+
