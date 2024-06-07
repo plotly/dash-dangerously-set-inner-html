@@ -2,9 +2,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+
 ## 0.0.3 - 2020-07-27
 ### Changed
 - Add `dash` to `install_requires` for better compatibility with `conda`
+### Added
+- Added initial release of R package
 
 ## 0.0.2 - 2018-12-18
 ### Changed
