@@ -1,5 +1,12 @@
 # dash-dangerously-set-inner-html
 
+<div align="center">
+  <a href="https://dash.plotly.com/project-maintenance">
+    <img src="https://dash.plotly.com/assets/images/maintained-by-plotly.png" width="400px" alt="Maintained by Plotly">
+  </a>
+</div>
+
+
 Render a string of raw, unescaped HTML.
 This uses React.js's `dangerouslySetInnerHTML` method.
 From React.js's documentation, note that:
